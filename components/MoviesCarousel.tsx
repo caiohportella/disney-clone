@@ -10,7 +10,7 @@ type MoviesCarouselProps = {
 
 const MoviesCarousel = ({ title, movies, isVertical }: MoviesCarouselProps) => {
   return (
-    <div className="z-50">
+    <div className="z-5">
       <h2 className="text-xl font-bold px-10 py-2">{title}</h2>
 
       <div

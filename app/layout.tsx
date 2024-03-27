@@ -6,6 +6,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata: Metadata = {
   title: "Disney+ Clone",
   description: "For practice purposes only.",
+  icons: [
+    {
+      url: "/app/icon.png",
+      type: "image/png",
+    },
+  ],
 };
 
 export default function RootLayout({
